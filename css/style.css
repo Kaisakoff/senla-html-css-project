@@ -86,7 +86,15 @@ h1 {
     z-index: 1;
 }
 
+h2 {
+    color: #242424;
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 24px;
+}
+
 p {
+    color: #242424;
     font-weight: normal;
     line-height: 22.4px;
 }
@@ -286,4 +294,38 @@ z-index: 200;
 
 .want-help:active {
     box-shadow: inset 7px 7px 16px #E3E3E3, -3px -4px 8px rgba(255, 255, 255, 0.9), inset 13px 22px 8px rgba(0, 0, 0, 0.02);
+}
+
+/* FIRST BLOCK*/
+
+.first-block {
+    background: url("../img/bg-cube.jpg") no-repeat 0 50%;
+    background-size: 27% 521px;
+}
+
+.first-block .wrapper {
+    display: flex;
+    background-color: inherit;
+    justify-content: flex-end;
+    padding: 128px 20px 137px 0;
+    background:
+    url("../img/bg-small-img.svg") no-repeat 33.3% 87.5%,
+    url("../img/bg-small-circle.svg") no-repeat 33% 89%,
+    url("../img/bg-big-img.svg") no-repeat 0 50%,
+    url("../img/bg-big-circle.svg") no-repeat -7% 50%,
+    url("../img/bg-small-cube.jpg") no-repeat -21% 50%;
+}
+
+.first-block-container {
+    max-width: 466px;
+}
+
+.first-block-h2 {
+    color: #C78100;
+    line-height: 33.6px;
+    text-align: center;
+}
+
+.break-paragraph {
+    margin: 28px 0 20px;
 }
