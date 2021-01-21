@@ -927,25 +927,46 @@ z-index: 200;
 
 /*THANKS FOR HELP BLOCK*/
 
-.thanks-for-help-container {
-    min-height: 741px;
+.thanks-help-container {
+    position: relative;
+    display: flex;
+    align-items: center;
     background: url("../img/hug-dog.jpg") no-repeat;
-    background-size: contain;
-    /*background-blend-mode: soft-light;*/
+    background-size: cover;
+    min-height: 741px;
 }
 
-.thanks-for-help-container::before {
+.thanks-help-container::before {
     content: "";
     display: block;
-    height: 741px;
-    background: 
-    url("../img/bg-thnx-block.png") no-repeat 0 50%,
-    url("../img/bg-thnx-circle.png") no-repeat 7% 50%;
-    filter: brightness(0.2) opacity(0.4) contrast(1);
+
+    position: absolute;
+    top: 119px;
+    left: 0;
+    
+    width: 615px;
+    height: 521px;
+    background: url("../img/thnx-bp.png") no-repeat;
+    filter: brightness(1) opacity(0.3);
 }
 
-.thanks-for-help-container .wrapper {
-    background-color: transparent;
+.thanks-help-container::after {
+    content: "";
+    display: block;
+
+    position: absolute;
+    top: 354px;
+    left: 480px;
+    
+    width: 89px;
+    height: 89px;
+    background: url("../img/thnx-paw.png") no-repeat;
+}
+
+.thnx-content {
+    max-width: 346px;
+    margin-left: 134px;
+    z-index: 10;
 }
 
 .thnx-text {
@@ -955,3 +976,42 @@ z-index: 200;
     line-height: 77px;
 }
 
+/*FOOTER*/
+
+footer .wrapper {
+    display: flex;
+    justify-content: space-between;
+    background-color: transparent;
+}
+
+.bottom-navigation {
+    display: flex;
+    justify-content: space-between;
+    width: 881px;
+    padding-top: 40px;
+
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 16.7px;
+    text-decoration: underline;
+}
+
+.bottom-menu {
+    display: flex;
+    justify-content: space-between;
+    width: 143px;
+    padding-top: 40px;
+
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16.24px;
+    text-decoration: underline;
+}
+
+.copyright {
+    text-align: center;
+    text-transform: uppercase;
+    padding: 24px 0 16px;
+    
+    color: #B3B3B3;
+}
