@@ -654,7 +654,7 @@ z-index: 200;
     width: 49px;
     height: 49px;
     border-radius: 50%;
-    background: linear-gradient(145.67deg, #FFFFFF 15.39%, #E4E4E4 88.3%);
+    /*background: linear-gradient(145.67deg, #FFFFFF 15.39%, #E4E4E4 88.3%);*/
     box-shadow: 3px 3px 13px #B1B1B1;
 }
 
@@ -671,11 +671,13 @@ z-index: 200;
     box-shadow: inset 7px 7px 16px rgba(213, 213, 213, 0.6), -6px -6px 8px #FFFFFF, inset 13px 22px 8px #F3F3F3;
 }
 
+/*
 .gray-setting:active .insta-yellow,
-.gray-setting:active .vk-yellow,  {
+.gray-setting:active .vk-yellow,  { 
     background: linear-gradient(145.67deg, #E4E4E4 16.92%, #F6F6F6 88.3%);
     box-shadow: inset  3px 3px 13px #B2B2B2, inset 4px 4px 7px rgba(192, 192, 192, 0.25);
 }
+*/
 
 /* HH SECOND BLOCK finance help*/
 
@@ -921,3 +923,35 @@ z-index: 200;
     width: 146px;
     padding-top: 16px;
 }
+
+
+/*THANKS FOR HELP BLOCK*/
+
+.thanks-for-help-container {
+    min-height: 741px;
+    background: url("../img/hug-dog.jpg") no-repeat;
+    background-size: contain;
+    /*background-blend-mode: soft-light;*/
+}
+
+.thanks-for-help-container::before {
+    content: "";
+    display: block;
+    height: 741px;
+    background: 
+    url("../img/bg-thnx-block.png") no-repeat 0 50%,
+    url("../img/bg-thnx-circle.png") no-repeat 7% 50%;
+    filter: brightness(0.2) opacity(0.4) contrast(1);
+}
+
+.thanks-for-help-container .wrapper {
+    background-color: transparent;
+}
+
+.thnx-text {
+    color: #FFFFFF;
+    font-size: 64px;
+    font-weight: bold;
+    line-height: 77px;
+}
+
