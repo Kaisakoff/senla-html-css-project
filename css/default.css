@@ -153,7 +153,10 @@ table {
 }
 
 .wrapper {
-    background-color: #F6F6F6;
     margin: 0 auto;
     max-width: 1146px;
+}
+
+.bg-color {
+    background-color: #F6F6F6;
 }
