@@ -121,37 +121,6 @@ hr {
 
 /*BUTTONS*/
 
-/* 
-.btn-gray {
-    display: inline-block;
-    padding: 5px;
-    background: #F6F6F6;
-    box-shadow: 7px 7px 16px #E3E3E3, -4px -4px 8px rgba(255, 255, 255, 0.7), inset 13px 22px 8px rgba(0, 0, 0, 0.02);
-    border-radius: 58px;
-}
-
-.btn-gray-content {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 20px;
-    line-height: 32px;
-    padding: 0 29px;
-    background: linear-gradient(180deg, #FBFBFB 0%, #F6F6F6 100%);
-    box-shadow: 3px 3px 13px rgba(128, 128, 128, 0.25);
-    border-radius: 58px;
-}
-
-.btn-gray:active {
-    background: #F6F6F6;
-    box-shadow: inset 7px 7px 16px #E3E3E3, -4px -4px 8px rgba(255, 255, 255, 0.7), inset 13px 22px 8px rgba(0, 0, 0, 0.02);
-}
-
-.btn-gray-content:active {
-    background: linear-gradient(180deg, #F1F1F1 1.56%, #FCFAFA 100%);
-    box-shadow: 3px 3px 13px rgba(128, 128, 128, 0.25), inset 0px 4px 13px rgba(0, 0, 0, 0.06);
-} */
-
 .btn-yellow {
     position: relative;
     font-size: 20px;
@@ -247,6 +216,124 @@ hr {
     box-shadow: 3px 3px 13px rgba(128, 128, 128, 0.25), inset 0px 4px 13px rgba(0, 0, 0, 0.06);
 }
 
+/* SOCIAL SETINGS BUTTONS*/
+
+.item-yellow {
+    position: relative;
+    width: 49px;
+    height: 49px;
+    border-radius: 50%;
+    background: linear-gradient(150.26deg, #FFE28F 6.75%, #ECBD37 91.17%);
+    box-shadow: 3px 3px 13px #C18F00;
+    
+}
+
+.item-yellow::before {
+    content: "";
+    display: block;
+    
+    position: absolute;
+    top: -7px;
+    left: -7px;
+
+    width: 63px;
+    height: 63px;
+    border-radius: 50%;
+    background: linear-gradient(144.1deg, #FFE193 12.45%, #FFC93F 89.31%);
+    box-shadow: 7px 7px 16px rgba(204, 151, 0, 0.6), -4px -4px 8px #FFDB7E, inset 13px 22px 8px #F1C74F;
+    z-index: -1;
+}
+
+.vk-white {
+    background: url("../img/vk-white.png") no-repeat 50% 50%;
+}
+
+.vk-white:hover {
+    background: 
+    url("../img/vk-white.png") no-repeat 50% 50%,
+    linear-gradient(150.26deg, #FFEAAD 6.75%, #FCE6A7 45.73%, #FFC726 91.17%);
+}
+
+.vk-white:active {
+    background: 
+    url("../img/vk-white.png") no-repeat 50% 50%,
+    linear-gradient(150.26deg, #FFDA71 6.75%, #FFCD40 43.24%, #FBC11B 91.17%);
+    box-shadow: 2px 2px 6px #C18F00, inset 3px 3px 10px rgba(199, 129, 0, 0.59);
+}
+
+.insta-white {
+    background: url("../img/inst-white.png") no-repeat 50% 50%;
+}
+
+.insta-white:hover {
+    background:
+    url("../img/inst-white.png") no-repeat 50% 50%,
+    linear-gradient(150.26deg, #FFEAAD 6.75%, #FCE6A7 45.73%, #FFC726 91.17%);
+}
+
+.insta-white:active {
+    background:
+    url("../img/inst-white.png") no-repeat 50% 50%,
+    linear-gradient(150.26deg, #FFDA71 6.75%, #FFCD40 43.24%, #FBC11B 91.17%);
+    box-shadow: 2px 2px 6px #C18F00, inset 3px 3px 10px rgba(199, 129, 0, 0.59);
+}
+
+.item-gray {
+    position: relative;
+    width: 49px;
+    height: 49px;
+    border-radius: 50%;
+    background: linear-gradient(145.67deg, #FFFFFF 15.39%, #E4E4E4 88.3%);
+    box-shadow: 3px 3px 13px #B1B1B1;
+    
+}
+
+.item-gray::before {
+    content: "";
+    display: block;
+    
+    position: absolute;
+    top: -7px;
+    left: -7px;
+
+    width: 63px;
+    height: 63px;
+    border-radius: 50%;
+    background: linear-gradient(144.1deg, #FFFFFF 12.45%, #FBFBFB 89.31%);
+    box-shadow: 7px 7px 16px rgba(213, 213, 213, 0.6), -6px -6px 8px #FFFFFF, inset 13px 22px 8px #F3F3F3;
+    z-index: -1;
+}
+
+.vk-yellow {
+    background: url("../img/vk-yellow.png") no-repeat 50% 50%;
+}
+
+.vk-yellow:hover {
+    background: url("../img/vk-yellow.png") no-repeat 50% 50%,
+    linear-gradient(145.67deg, #FFFFFF 15.39%, #FAFAFA 54.13%, #DADADA 88.3%);
+}
+
+.vk-yellow:active {
+    background: url("../img/vk-yellow.png") no-repeat 50% 50%,
+    linear-gradient(145.67deg, #E4E4E4 16.92%, #F6F6F6 88.3%);
+    box-shadow: 3px 3px 13px #B2B2B2, inset 4px 4px 7px rgba(192, 192, 192, 0.25);
+}
+
+.insta-yellow {
+    background: url("../img/inst-yellow.png") no-repeat 50% 50%;
+}
+
+.insta-yellow:hover {
+    background: url("../img/inst-yellow.png") no-repeat 50% 50%,
+    linear-gradient(145.67deg, #FFFFFF 15.39%, #FAFAFA 54.13%, #DADADA 88.3%);
+}
+
+.insta-yellow:active {
+    background: url("../img/inst-yellow.png") no-repeat 50% 50%,
+    linear-gradient(145.67deg, #E4E4E4 16.92%, #F6F6F6 88.3%);
+    box-shadow: 3px 3px 13px #B2B2B2, inset 4px 4px 7px rgba(192, 192, 192, 0.25);
+}
+
 /* HEADER*/
 
 header {
@@ -284,58 +371,10 @@ header .wrapper {
 
 .social-settings {
 display: flex;
-}
-
-.social {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: relative;
-    width: 63px;
-    height: 63px;
-    border-radius: 50%;
-    cursor: pointer;
-    background: linear-gradient(144.1deg, #FFE193 12.45%, #FFC93F 89.31%);
-    box-shadow: 7px 7px 16px rgba(204, 151, 0, 0.6), -4px -4px 8px #FFDB7E, inset 13px 22px 8px #F1C74F;
-}
-
-.social:nth-child(2) {
-    margin-left: 32px;
-}
-
-.social::before {
-    content: "";
-    width: 49px;
-    height: 49px;
-    border-radius: 50%;
-    background-image: linear-gradient(150.26deg, #FFE28F 6.75%, #ECBD37 91.17%);
-    box-shadow: 3px 3px 13px #C18F00;
-}
-
-.social:active {
-    box-shadow: inset 7px 7px 16px rgba(204, 151, 0, 0.6), -4px -4px 8px #FFDB7E, inset 13px 22px 8px #F1C74F;
-}
-
-.vk {
-    content: "";
-    width: 49px;
-    height: 49px;
-    border-radius: 50%;
-    position: absolute;
-    top: 8px;
-    left: 7px;
-    background: url("../img/social-setting-vk.png") no-repeat 50% 50%;
-}
-
-.insta {
-    content: "";
-    width: 49px;
-    height: 49px;
-    border-radius: 50%;
-    position: absolute;
-    top: 6px;
-    left: 7px;
-    background: url("../img/social-setting-insta.png") no-repeat 50% 50%;
+align-items: center;
+justify-content: space-between;
+width: 140px;
+z-index: 1;
 }
 
 .content-container {
@@ -695,51 +734,9 @@ display: flex;
     font-weight: 400;
 }
 
-.button-container {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    width: 158px;
+.social-settings-container .social-settings {
+    width: 145px;
 }
-
-.gray-button {
-    display: flex;
-    width: 63px;
-    height: 63px;
-    border-radius: 50%;
-    background: linear-gradient(144.1deg, #FFFFFF 12.45%, #FBFBFB 89.31%);
-    box-shadow: 7px 7px 16px rgba(213, 213, 213, 0.6), -6px -6px 8px #FFFFFF, inset 13px 22px 8px #F3F3F3;
-    padding: 7px;
-}
-
-.gray-setting {
-    width: 49px;
-    height: 49px;
-    border-radius: 50%;
-    /*background: linear-gradient(145.67deg, #FFFFFF 15.39%, #E4E4E4 88.3%);*/
-    box-shadow: 3px 3px 13px #B1B1B1;
-}
-
-.vk-yellow {
-    background: url("../img/social-setting-vk-yellow.png") no-repeat 50% 50%;
-}
-
-.insta-yellow {
-    background: url("../img/social-setting-insta-yellow.png") no-repeat 50% 50%;
-}
-
-.gray-button:active {
-    background: linear-gradient(144.1deg, #FFFFFF 12.45%, #FBFBFB 89.31%);
-    box-shadow: inset 7px 7px 16px rgba(213, 213, 213, 0.6), -6px -6px 8px #FFFFFF, inset 13px 22px 8px #F3F3F3;
-}
-
-/*
-.gray-setting:active .insta-yellow,
-.gray-setting:active .vk-yellow,  { 
-    background: linear-gradient(145.67deg, #E4E4E4 16.92%, #F6F6F6 88.3%);
-    box-shadow: inset  3px 3px 13px #B2B2B2, inset 4px 4px 7px rgba(192, 192, 192, 0.25);
-}
-*/
 
 /* HH SECOND BLOCK finance help*/
 
@@ -985,9 +982,9 @@ display: flex;
     color: #6B6B6B;
 }
 
-.about-us .button-container {
-    width: 146px;
-    padding-top: 16px;
+.about-us .social-settings {
+    width: 132px;
+    padding-top: 23px;
 }
 
 
