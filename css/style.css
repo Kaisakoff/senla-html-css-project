@@ -399,7 +399,7 @@ z-index: 1;
     display: inline-block;
     position: absolute;
     top: 305px;
-    right: 65px;
+    right: 160px;
     width: 483px;
     height: 469px;
 }
@@ -424,8 +424,8 @@ z-index: 1;
 
 .item-3{
     position: absolute;
-    top: 502px;
-    left: 191px;
+    top: 505px;
+    left: 186px;
     width: 474px;
     height: 107px;
     z-index: -2;
@@ -455,28 +455,33 @@ z-index: 1;
     padding: 43px 0 44px;
 }
 
-/* FIRST BLOCK*/
+/* massage-to-people BLOCK*/
 
-.first-block {
-    background: url("../img/bg-cube.jpg") no-repeat 0 50%;
-    background-size: 27% 521px;
-}
-
-.first-block .wrapper {
+.message-to-people__container {
     display: flex;
-    background-color: inherit;
-    justify-content: flex-end;
-    padding: 128px 20px 137px 0;
-    background:
-    url("../img/bg-small-img.svg") no-repeat 33.3% 87.5%,
-    url("../img/bg-small-circle.svg") no-repeat 33% 89%,
-    url("../img/bg-big-img.svg") no-repeat 0 50%,
-    url("../img/bg-big-circle.svg") no-repeat -7% 50%,
-    url("../img/bg-small-cube.jpg") no-repeat -21% 50%;
+    position: relative;
 }
 
-.first-block-container {
+.message-to-people__container::before {
+    content: "";
+    width: 100%;
+    height: 100%;
+    background:
+    url("../img/message-to-people/bg-cat-circle-xxl.svg") no-repeat 674px 88.5%,
+    url("../img/message-to-people/bg-small-circle-xxl.svg") no-repeat 665px 90%,
+    url("../img/message-to-people/bg-dog-circle-xxl.svg") no-repeat 369px 50%, 
+    url("../img/message-to-people/bg-cube-xxl.jpg") no-repeat 0 50%, 
+    url("../img/message-to-people/bg-circle-xxl.svg") no-repeat 335px 50%;
+    position: absolute;
+    left: -387.5px;
+    z-index: -1;
+}
+
+.message-to-peaple__content {
+    box-sizing: content-box;
     max-width: 466px;
+    margin-left: auto;
+    padding: 128px 120px 137px 0;
 }
 
 .first-block-h2 {
