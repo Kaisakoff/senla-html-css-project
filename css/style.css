@@ -496,12 +496,8 @@ z-index: 1;
 
 /* HOW TO HELP BLOCK*/
 
-.how-help {
+.how-help-block {
     background-color: #F6F6F6;
-}
-
-.how-help .wrapper {
-    max-width: 1146px;
 }
 
 .lite-h2 {
@@ -510,7 +506,7 @@ z-index: 1;
     padding: 80px 0 47px;
 }
 
-.help-elements {
+.help-menu {
     display: flex;
     justify-content: space-between;
     padding: 0 0 80px;
@@ -527,6 +523,12 @@ z-index: 1;
     border-radius: 50%;
     box-shadow: 6px 6px 16px rgba(224, 224, 224, 0.6), -6px -6px 16px rgba(255, 255, 255, 0.77);
     margin: 0 0 24px;
+}
+
+.hh-btn:hover {
+    background: #FAFAFA;
+    border: none;
+    box-shadow: 6px 6px 16px rgba(224, 224, 224, 0.6), -6px -6px 16px rgba(255, 255, 255, 0.77);
 }
 
 .hh-btn:active{
@@ -556,7 +558,7 @@ z-index: 1;
     width: 61px;
 }
 
-.help-element {
+.help-item {
     display: flex;
     flex-direction: column;
     align-items: center;
