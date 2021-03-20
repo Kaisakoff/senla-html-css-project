@@ -7,5 +7,4 @@
 - Пока ожидал верстку от SENLA - пошел на платные курсы по JS в https://it-shatle.by/
 
 Из-за всего этого дела прошлепал сроки по верстке =( поэтому узнал когда сдавать проект за сутки
-
-- https://xenodochial-mcnulty-cad960.netlify.app/
+https://xenodochial-mcnulty-cad960.netlify.app/
